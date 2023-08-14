@@ -1,0 +1,7 @@
+create database users
+create table persons(Name varchar(255),phoneNuber varchar(255),password varchar(255));
+create table orders(
+                    producName varchar(255),Name varchar(255),killogram varchar(255),
+                    phoneNumber varchar(255),Geolocation varchar(255),price varchar(255),
+                    dataAndTime varchar(255),Productkey varchar(255),ProductStatus varchar(255)
+                    );

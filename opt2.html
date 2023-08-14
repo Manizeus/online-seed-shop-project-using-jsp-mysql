@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <style>
+        *{
+            margin: opx;
+            padding: 0px;
+        }
+        .opt{
+            border: 1px rgb(179, 176, 176);
+            border-radius: 4px;
+            padding: 50px; /*100*/
+            width: 330px; /*500*/
+            margin:auto;
+            margin-top:150px;
+            box-shadow: 2px 2px 7px 2px rgb(181, 180, 180);
+            
+        }
+
+        .submit{
+            text-decoration: none;
+            padding: 8px;
+            align-items: center;
+            margin: auto;
+            border-radius: 5px;
+            border:none;
+            width: 100%;
+            background-color:limegreen;
+            color:black;
+            box-shadow: 0px 0px 5px 0px rgb(83, 165, 254);
+            
+        }
+
+        button.submit:hover{
+           
+            color: rgb(254, 254, 254);
+            /*bordergb(255, 253, 253)or: rgb(139, 218, 255);*/
+        }
+
+        .createA{
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+<div class="opt">
+    <label>Enter your OTP pin</label>
+  <form action="optValidate.jsp">
+    <br>
+    <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" name="num" required>
+        <label for="floatingInput">OTP</label>
+      </div>
+      <br>
+         <button class="submit" type="submit">submit</button>
+    </form>
+<div>
+<br>
+<script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+<script src="./bootstrap-5.2.3-dist/js/jquery.min.js"></script>
+</body>
+</html>
